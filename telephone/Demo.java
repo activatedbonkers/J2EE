@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Demo {
 	public static void main(String[] args) {
 		HashMap<Integer, String> callersList = new HashMap<>();
-		System.out.println("Enter the number of people in the callers list");
+		System.out.println("Enter the number of people in the callers list"); //Haven't fixed as 10 as per the question
 		Scanner s = new Scanner(System.in);
 		int n;
 		n = s.nextInt();
